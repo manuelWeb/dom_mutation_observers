@@ -21,9 +21,9 @@ class Ping{
 var ping = new Ping();
 
 var handler = function () {
-  console.log("Pong");
+  console.log(this);
 }
 
 ping.subscribe(handler);
 
-ping.fire();
+ping.fire('hello');
