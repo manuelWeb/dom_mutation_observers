@@ -1,4 +1,4 @@
-var eltToObs = document.getElementById('ctl01_ContentPlaceHolder1_A_VALIDER_CODE_KDO');
+var eltToObs = document.getElementById('ctl00_ContentPlaceHolder1_A_VALIDER_CODE_KDO')
 
 var observer = new MutationObserver(function(mutations) {
   mutations.forEach(function(mutation) {
